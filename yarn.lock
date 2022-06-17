@@ -2505,13 +2505,14 @@ ember-cli-app-version@^1.0.0:
     ember-cli-htmlbars "^1.0.0"
     git-repo-version "0.3.0"
 
-ember-cli-babel@5.1.6, ember-cli-babel@^5.1.3, ember-cli-babel@^5.1.5, ember-cli-babel@^5.1.6:
-  version "5.1.6"
-  resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-5.1.6.tgz#d3e4fe59d96589adf7db1d99ff4f6b9dfa9dc132"
+ember-cli-babel@5.2.8:
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-5.2.8.tgz#0356b03cc3fdff5d0f2ecaa46a0e1cfaebffd876"
+  integrity sha512-Mt9OOB5RaZwjde+LYef8EgwNVCAzsYDv4ktshblaXxr4m/Xm5/7/rxEu42RNrYkoy/qWpT9uhaD+JKK4riMf+w==
   dependencies:
-    broccoli-babel-transpiler "^5.4.5"
+    broccoli-babel-transpiler "^5.6.2"
     broccoli-funnel "^1.0.0"
-    clone "^1.0.2"
+    clone "^2.0.0"
     ember-cli-version-checker "^1.0.2"
     resolve "^1.1.2"
 
@@ -2522,6 +2523,16 @@ ember-cli-babel@^5.1.10, ember-cli-babel@^5.1.7, ember-cli-babel@^5.2.1:
     broccoli-babel-transpiler "^5.6.2"
     broccoli-funnel "^1.0.0"
     clone "^2.0.0"
+    ember-cli-version-checker "^1.0.2"
+    resolve "^1.1.2"
+
+ember-cli-babel@^5.1.3, ember-cli-babel@^5.1.5, ember-cli-babel@^5.1.6:
+  version "5.1.6"
+  resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-5.1.6.tgz#d3e4fe59d96589adf7db1d99ff4f6b9dfa9dc132"
+  dependencies:
+    broccoli-babel-transpiler "^5.4.5"
+    broccoli-funnel "^1.0.0"
+    clone "^1.0.2"
     ember-cli-version-checker "^1.0.2"
     resolve "^1.1.2"
 
